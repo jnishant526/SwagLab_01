@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="TestCases.Swag_TC0105">
+        <methods>
+          <include name="KillResources"/>
+          <include name="BrowserSetup"/>
+          <include name="TC0105"/>
+        </methods>
+      </class> <!-- TestCases.Swag_TC0105 -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+  <test thread-count="5" name="Test1(failed)(failed)">
+    <classes>
+      <class name="TestCases.Swag_TC0106">
+        <methods>
+          <include name="KillResources"/>
+          <include name="BrowserSetup"/>
+          <include name="TC0106"/>
+        </methods>
+      </class> <!-- TestCases.Swag_TC0106 -->
+      <class name="TestCases.Swag_TC0103">
+        <methods>
+          <include name="KillResources"/>
+          <include name="BrowserSetup"/>
+          <include name="TC0103"/>
+        </methods>
+      </class> <!-- TestCases.Swag_TC0103 -->
+    </classes>
+  </test> <!-- Test1(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
